@@ -18,7 +18,7 @@ export async function onRequestPost(context) {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          from: 'Comtipo Site <onboarding@resend.dev>', // Ou seu domínio verificado
+          from: 'Contato Site <nao-responda@comtipo.com>', // Ou seu domínio verificado
           to: 'marllondesousafreire@gmail.com', // Seu e-mail pessoal
           subject: `Nova mensagem de ${body.name}`,
           html: `<p><strong>Nome:</strong> ${body.name}</p>
