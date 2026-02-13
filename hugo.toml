@@ -23,7 +23,7 @@ buildFuture = false
   # Configurações de Visual (Baseado no PaperMod)
   defaultTheme = "auto" # Permite Dark/Light mode
   disableThemeToggle = false
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowReadingTime = false # Desativado pois é site institucional/produtos
   displayFullLangName = true
 

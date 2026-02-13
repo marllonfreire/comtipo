@@ -93,3 +93,15 @@
 .dark .entry-footer::after {
     background-color: var(--accent);
 }
+
+/* --- Limpeza da Página de Produto --- */
+
+/* Esconde a navegação de "Próximo Post / Post Anterior" */
+.paginav {
+    display: none !important;
+}
+
+/* (Opcional) Esconde as Tags no rodapé do produto */
+.post-tags {
+    display: none;
+}

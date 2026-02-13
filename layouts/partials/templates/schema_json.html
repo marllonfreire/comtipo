@@ -24,7 +24,6 @@
 </script>
 {{- else if eq .Section "produtos" -}}
 {{- $productImage := "" -}}
-{{- /* Lógica para encontrar a imagem de capa (cover.jpg) automaticamente */ -}}
 {{- if .Resources.GetMatch "cover.*" -}}
   {{- $cover := .Resources.GetMatch "cover.*" -}}
   {{- $productImage = $cover.Permalink -}}
@@ -54,7 +53,7 @@
     "priceCurrency": "BRL",
     "price": "{{ .Params.preco | default "0.00" }}",
     "itemCondition": "https://schema.org/NewCondition",
-    "availability": "https://schema.org/{{ if eq .Params.disponibilidade 'Em Estoque' }}InStock{{ else }}OutOfStock{{ end }}"
+    "availability": "https://schema.org/{{ if eq .Params.disponibilidade "Em Estoque" }}InStock{{ else }}OutOfStock{{ end }}"
   }
 }
 </script>
