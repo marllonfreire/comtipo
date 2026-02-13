@@ -42,7 +42,7 @@ buildFuture = false
     ]
 
   [params.socialIcons]
-    # Adicionaremos seus links depois (Instagram, Shopee, etc)
+    # Adicionaremos seus links depois (Instagram, Shopee)
 
 # Menu Principal
 [[menu.main]]
