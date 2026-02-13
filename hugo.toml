@@ -26,8 +26,9 @@ buildFuture = false
   ShowReadingTime = false # Desativado pois é site institucional/produtos
   displayFullLangName = true
 
-  [params.assets]
-    disableHLJS = true # Desativa highlight de código (não é blog de dev)
+ [params]
+  [[params.assets.favicons]]
+    href = "favicon.ico"
 
   # Perfil na Home (Estilo Cartão de Visita)
   [params.profileMode]
