@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://comtipo.pages.dev/produtos/</loc>
+    <loc>http://localhost:1313/produtos/</loc>
     <lastmod>2026-02-13T01:02:22-03:00</lastmod>
   </url><url>
-    <loc>https://comtipo.pages.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-02-13T01:02:22-03:00</lastmod>
   </url><url>
-    <loc>https://comtipo.pages.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-02-13T01:02:22-03:00</lastmod>
   </url><url>
-    <loc>https://comtipo.pages.dev/produtos/guia-comtipo/</loc>
+    <loc>http://localhost:1313/produtos/guia-comtipo/</loc>
     <lastmod>2026-02-13T01:02:22-03:00</lastmod>
   </url><url>
-    <loc>https://comtipo.pages.dev/categories/produtos/</loc>
+    <loc>http://localhost:1313/categories/produtos/</loc>
     <lastmod>2026-02-13T01:02:22-03:00</lastmod>
   </url><url>
-    <loc>https://comtipo.pages.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
