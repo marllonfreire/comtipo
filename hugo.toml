@@ -17,8 +17,7 @@ buildFuture = false
   env = "production"
   title = "Comtipo"
   description = "Soluções Digitais e Comércio Inteligente"
-  keywords = ["Comtipo", "Ecommerce", "Tecnologia", "Consultoria"]
-  author = "Marllon de Sousa Freire"
+  author = "Comtipo" # <-- MUDE AQUI (estava seu nome)
   
   # Configurações de Visual (Baseado no PaperMod)
   defaultTheme = "auto" # Permite Dark/Light mode

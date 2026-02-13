@@ -67,9 +67,16 @@
     color: var(--primary);
 }
 
-/* Esconder data e tempo de leitura nos produtos */
+/* --- Limpeza Total de Metadados --- */
+
+/* Esconde data, autor e tempo de leitura em TODAS as páginas */
 .entry-meta {
-    display: none; 
+    display: none !important;
+}
+
+/* Esconde o rodapé padrão do post (onde às vezes fica o autor) */
+.post-footer {
+    display: none;
 }
 
 /* Botão de Ação no Card */
