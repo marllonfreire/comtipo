@@ -83,25 +83,12 @@
     display: block;
     text-align: center;
     background-color: var(--primary);
-    color: white;
+    color: var(--theme); /* <--- A CORREÇÃO */
     padding: 8px;
     border-radius: 4px;
     font-size: 0.9rem;
     font-weight: bold;
 }
-
 .dark .entry-footer::after {
     background-color: var(--accent);
-}
-
-/* --- Limpeza da Página de Produto --- */
-
-/* Esconde a navegação de "Próximo Post / Post Anterior" */
-.paginav {
-    display: none !important;
-}
-
-/* (Opcional) Esconde as Tags no rodapé do produto */
-.post-tags {
-    display: none;
 }
