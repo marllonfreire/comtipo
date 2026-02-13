@@ -1,5 +1,6 @@
 baseURL = "https://comtipo.pages.dev/" # URL temporária da Cloudflare
 languageCode = "pt-br"
+defaultContentLanguage = "pt-br"
 title = "Comtipo"
 theme = "PaperMod"
 

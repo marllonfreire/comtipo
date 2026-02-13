@@ -1,0 +1,57 @@
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ .Site.BaseURL }}images/logo.png"
+  },
+  "sameAs": [
+    "https://instagram.com/comtipo",
+    "https://shopee.com.br/comtipo"
+  ]
+}
+</script>
+{{- else if eq .Section "produtos" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ .Title }}",
+  "description": "{{ .Summary | plainify }}",
+  "image": [
+    {{- if .Params.cover.image -}}
+    "{{ .Permalink }}{{ .Params.cover.image }}"
+    {{- else -}}
+    "{{ .Site.BaseURL }}images/produto-padrao.jpg"
+    {{- end -}}
+  ],
+  "sku": "{{ .File.UniqueID }}",
+  "brand": {
+    "@type": "Brand",
+    "name": "{{ .Site.Title }}"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "{{ .Permalink }}",
+    "priceCurrency": "BRL",
+    "price": "{{ .Params.preco | default "0.00" }}",
+    "availability": "https://schema.org/{{ if eq .Params.disponibilidade 'Em Estoque' }}InStock{{ else }}OutOfStock{{ end }}",
+    "itemCondition": "https://schema.org/NewCondition"
+  }
+}
+</script>
+{{- else -}}
+{{- /* Padrão para outras páginas (Sobre, Contato) mantém Breadcrumb simples */ -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "{{ .Title }}",
+  "url": "{{ .Permalink }}"
+}
+</script>
+{{- end -}}
