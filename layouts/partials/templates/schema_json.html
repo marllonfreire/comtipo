@@ -7,45 +7,58 @@
   "url": "{{ .Site.BaseURL }}",
   "logo": {
     "@type": "ImageObject",
-    "url": "{{ .Site.BaseURL }}images/logo.png"
+    "url": "{{ .Site.BaseURL }}images/logo-comtipo.png",
+    "width": 200,
+    "height": 60
   },
   "sameAs": [
     "https://instagram.com/comtipo",
     "https://shopee.com.br/comtipo"
-  ]
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-62-99999-9999",
+    "contactType": "customer service"
+  }
 }
 </script>
 {{- else if eq .Section "produtos" -}}
+{{- $productImage := "" -}}
+{{- /* Lógica para encontrar a imagem de capa (cover.jpg) automaticamente */ -}}
+{{- if .Resources.GetMatch "cover.*" -}}
+  {{- $cover := .Resources.GetMatch "cover.*" -}}
+  {{- $productImage = $cover.Permalink -}}
+{{- else if .Params.cover.image -}}
+  {{- $productImage = .Params.cover.image | absURL -}}
+{{- else -}}
+  {{- $productImage = (print .Site.BaseURL "images/produto-padrao.jpg") -}}
+{{- end -}}
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "{{ .Title }}",
-  "description": "{{ .Summary | plainify }}",
   "image": [
-    {{- if .Params.cover.image -}}
-    "{{ .Permalink }}{{ .Params.cover.image }}"
-    {{- else -}}
-    "{{ .Site.BaseURL }}images/produto-padrao.jpg"
-    {{- end -}}
+    "{{ $productImage }}"
   ],
+  "description": "{{ .Summary | plainify }}",
   "sku": "{{ .File.UniqueID }}",
   "brand": {
     "@type": "Brand",
-    "name": "{{ .Site.Title }}"
+    "name": "Comtipo"
   },
   "offers": {
     "@type": "Offer",
     "url": "{{ .Permalink }}",
     "priceCurrency": "BRL",
     "price": "{{ .Params.preco | default "0.00" }}",
-    "availability": "https://schema.org/{{ if eq .Params.disponibilidade 'Em Estoque' }}InStock{{ else }}OutOfStock{{ end }}",
-    "itemCondition": "https://schema.org/NewCondition"
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/{{ if eq .Params.disponibilidade 'Em Estoque' }}InStock{{ else }}OutOfStock{{ end }}"
   }
 }
 </script>
 {{- else -}}
-{{- /* Padrão para outras páginas (Sobre, Contato) mantém Breadcrumb simples */ -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
