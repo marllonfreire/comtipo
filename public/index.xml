@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Comtipo</title>
+    <link>https://comtipo.pages.dev/</link>
+    <description>Recent content on Comtipo</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Fri, 13 Feb 2026 01:02:22 -0300</lastBuildDate>
+    <atom:link href="https://comtipo.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guia Comtipo</title>
+      <link>https://comtipo.pages.dev/produtos/guia-comtipo/</link>
+      <pubDate>Fri, 13 Feb 2026 01:02:22 -0300</pubDate>
+      <guid>https://comtipo.pages.dev/produtos/guia-comtipo/</guid>
+      <description>Breve descrição do produto para aparecer na listagem.</description>
+    </item>
+  </channel>
+</rss>

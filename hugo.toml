@@ -1,0 +1,64 @@
+baseURL = "https://comtipo.pages.dev/" # URL temporária da Cloudflare
+languageCode = "pt-br"
+title = "Comtipo"
+theme = "PaperMod"
+
+# Otimização para SEO e processamento de recursos
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Comtipo"
+  description = "Soluções Digitais e Comércio Inteligente"
+  keywords = ["Comtipo", "Ecommerce", "Tecnologia", "Consultoria"]
+  author = "Marllon de Sousa Freire"
+  
+  # Configurações de Visual (Baseado no PaperMod)
+  defaultTheme = "auto" # Permite Dark/Light mode
+  disableThemeToggle = false
+  ShowShareButtons = true
+  ShowReadingTime = false # Desativado pois é site institucional/produtos
+  displayFullLangName = true
+
+  [params.assets]
+    disableHLJS = true # Desativa highlight de código (não é blog de dev)
+
+  # Perfil na Home (Estilo Cartão de Visita)
+  [params.profileMode]
+    enabled = true
+    title = "Comtipo"
+    subtitle = "Inovação e Comércio"
+    imageUrl = "" # Colocaremos a logo depois
+    imageTitle = "Logo Comtipo"
+    buttons = [
+      { name = "Nossos Produtos", url = "/produtos" },
+      { name = "Entre em Contato", url = "/contato" }
+    ]
+
+  [params.socialIcons]
+    # Adicionaremos seus links depois (Instagram, Shopee, etc)
+
+# Menu Principal
+[[menu.main]]
+  identifier = "produtos"
+  name = "Catálogo"
+  url = "/produtos/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "sobre"
+  name = "A Marca"
+  url = "/sobre/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "contato"
+  name = "Contato"
+  url = "/contato/"
+  weight = 30

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://comtipo.pages.dev/sitemap.xml
