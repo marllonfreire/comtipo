@@ -1,0 +1,11 @@
+- id: read_more
+  translation: "Ver Detalhes"
+
+- id: toc
+  translation: "Sumário"
+
+- id: next_page
+  translation: "Próxima Página"
+
+- id: prev_page
+  translation: "Página Anterior"

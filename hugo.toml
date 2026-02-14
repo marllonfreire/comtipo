@@ -1,10 +1,9 @@
-baseURL = "https://comtipo.com/" # URL temporária da Cloudflare
+baseURL = "https://comtipo.com/"
 languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
 title = "Comtipo"
 theme = "PaperMod"
 
-# Otimização para SEO e processamento de recursos
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -15,37 +14,45 @@ buildFuture = false
 
 [params]
   env = "production"
-  title = "Comtipo"
+  title = "Comtipo - Livraria e Importadora"
   description = "Soluções Digitais e Comércio Inteligente"
-  author = "Comtipo" # <-- MUDE AQUI (estava seu nome)
+  author = "Comtipo"
   
-  # Configurações de Visual (Baseado no PaperMod)
-  defaultTheme = "auto" # Permite Dark/Light mode
-  disableThemeToggle = false
+  # Visual e Favicon
+  defaultTheme = "light"
+  disableThemeToggle = true
   ShowShareButtons = false
-  ShowReadingTime = false # Desativado pois é site institucional/produtos
+  ShowReadingTime = false
   displayFullLangName = true
+  
+  # Ocultar Metadados (Datas/Autor)
+  hidemeta = true
+  hideSummary = true
+  
+  # Rodapé
+  copyright = "© 2026 Comtipo. Todos os direitos reservados."
 
- [params]
-  [[params.assets.favicons]]
-    href = "favicon.ico"
+  [params.assets]
+    favicon = "favicon.ico" # O arquivo deve estar em static/favicon.ico
+    disableHLJS = true
 
-  # Perfil na Home (Estilo Cartão de Visita)
   [params.profileMode]
     enabled = true
     title = "Comtipo"
     subtitle = "Inovação e Comércio"
-    imageUrl = "" # Colocaremos a logo depois
+    imageUrl = ""
     imageTitle = "Logo Comtipo"
     buttons = [
       { name = "Nossos Produtos", url = "/produtos" },
       { name = "Entre em Contato", url = "/contato" }
     ]
 
-  [params.socialIcons]
-    # Adicionaremos seus links depois (Instagram, Shopee)
+  [params.label]
+    text = "Comtipo"
+    icon = "images/logo-comtipo.png"
+    iconHeight = 35
 
-# Menu Principal
+# Menus
 [[menu.main]]
   identifier = "produtos"
   name = "Catálogo"
