@@ -6,9 +6,10 @@ params:
   isbn: ""
   autor: ""
   editora: ""
-  origem: "Internacional"
+  idioma: "Coreano/Inglês"
+  origem: "Importado"
   preco: 0.00
-  disponibilidade: "Sob Encomenda"
+  disponibilidade: "Pronta Entrega" # ou "Sob Encomenda"
 ---
 
-Insira aqui a descrição detalhada do livro.
+Escreva aqui a sinopse do livro.

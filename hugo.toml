@@ -54,9 +54,9 @@ buildFuture = false
 
 # Menus
 [[menu.main]]
-  identifier = "produtos"
-  name = "Catálogo"
-  url = "/produtos/"
+  identifier = "livros"
+  name = "Livraria"      # Nome que aparece no site
+  url = "/livros/"       # Caminho da nova pasta
   weight = 10
 
 [[menu.main]]

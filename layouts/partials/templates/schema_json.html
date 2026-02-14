@@ -22,7 +22,7 @@
   }
 }
 </script>
-{{- else if eq .Section "produtos" -}}
+{{- else if eq .Section "livros" -}}
 {{- $productImage := "" -}}
 {{- if .Resources.GetMatch "cover.*" -}}
   {{- $cover := .Resources.GetMatch "cover.*" -}}
