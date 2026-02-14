@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/produtos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guia Comtipo</title>
-      <link>http://localhost:1313/produtos/metodologias-ativas/</link>
+      <link>http://localhost:1313/produtos/talk-to-me-in-korean-workbook-level-1/</link>
       <pubDate>Fri, 13 Feb 2026 01:02:22 -0300</pubDate>
-      <guid>http://localhost:1313/produtos/metodologias-ativas/</guid>
+      <guid>http://localhost:1313/produtos/talk-to-me-in-korean-workbook-level-1/</guid>
       <description>O manual definitivo para gestão de e-commerce.</description>
     </item>
   </channel>
