@@ -2,20 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/livros/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-13T23:04:54-03:00</lastmod>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/livros/hangeul-master-learn-how-to-read-and-write-in-korean/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/livros/talk-to-me-in-korean-textbook-level-1/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/livros/talk-to-me-in-korean-workbook-level-1/</loc>
+    <lastmod>2026-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-13T01:02:22-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/produtos/</loc>
-    <lastmod>2026-02-13T01:02:22-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/produtos/talk-to-me-in-korean-workbook-level-1/</loc>
-    <lastmod>2026-02-13T01:02:22-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/produtos/</loc>
-    <lastmod>2026-02-13T01:02:22-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contato/</loc>
   </url><url>

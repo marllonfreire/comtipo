@@ -1,7 +1,7 @@
 baseURL = "https://comtipo.com/"
 languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
-title = "Comtipo"
+title = "Comtipo - Livraria e Importadora"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -14,49 +14,50 @@ buildFuture = false
 
 [params]
   env = "production"
-  title = "Comtipo - Livraria e Importadora"
-  description = "Soluções Digitais e Comércio Inteligente"
+  title = "Comtipo"
+  description = "Livraria especializada em materiais internacionais e coreanos."
   author = "Comtipo"
   
-  # Visual e Favicon
+  # TRUQUE: "destaques" vazio esconde a lista de livros da Home
+  mainSections = ["destaques"]
+  
   defaultTheme = "light"
   disableThemeToggle = true
   ShowShareButtons = false
   ShowReadingTime = false
   displayFullLangName = true
-  
-  # Ocultar Metadados (Datas/Autor)
   hidemeta = true
   hideSummary = true
   
-  # Rodapé
   copyright = "© 2026 Comtipo. Todos os direitos reservados."
 
   [params.assets]
-    favicon = "favicon.ico" # O arquivo deve estar em static/favicon.ico
+    favicon = "favicon.ico"
     disableHLJS = true
 
   [params.profileMode]
-    enabled = true
-    title = "Comtipo"
-    subtitle = "Inovação e Comércio"
-    imageUrl = ""
-    imageTitle = "Logo Comtipo"
-    buttons = [
-      { name = "Nossos Produtos", url = "/produtos" },
-      { name = "Entre em Contato", url = "/contato" }
-    ]
+    enabled = false 
+  
+  # CORREÇÃO AQUI: Se quiser vazio, use strings vazias simples
+  [params.homeInfoParams]
+    Title = ""
+    Content = ""
 
   [params.label]
     text = "Comtipo"
     icon = "images/logo-comtipo.png"
     iconHeight = 35
 
-# Menus
+  [params.cover]
+  hidden = false          # Garante que a capa apareça no post
+  hiddenInList = false    # CRUCIAL: Garante que a capa apareça na lista/grade
+  responsiveImages = true  
+
+# Menu Principal
 [[menu.main]]
   identifier = "livros"
-  name = "Livraria"      # Nome que aparece no site
-  url = "/livros/"       # Caminho da nova pasta
+  name = "Livraria"
+  url = "/livros/"
   weight = 10
 
 [[menu.main]]

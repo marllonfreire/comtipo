@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Comtipo - Livraria e Importadora</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Comtipo - Livraria e Importadora</description>
+    <title>Catálogo de Livros on Comtipo - Livraria e Importadora</title>
+    <link>http://localhost:1313/livros/</link>
+    <description>Recent content in Catálogo de Livros on Comtipo - Livraria e Importadora</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/livros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hangeul Master: Aprenda a Ler e Escrever em Coreano</title>
       <link>http://localhost:1313/livros/hangeul-master-learn-how-to-read-and-write-in-korean/</link>
@@ -42,13 +42,6 @@ summary: &amp;ldquo;Caderno de exercícios complementar ao Textbook Level 1 para
 &lt;li&gt;Gramática.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Ideal para revisar e garantir que você dominou cada lição antes de avançar para o próximo nível.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fale Conosco</title>
-      <link>http://localhost:1313/contato/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contato/</guid>
-      <description>Entre em contato para orçamentos e dúvidas.</description>
     </item>
   </channel>
 </rss>

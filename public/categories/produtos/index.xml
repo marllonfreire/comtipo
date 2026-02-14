@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Produtos on Comtipo</title>
+    <title>Produtos on Comtipo - Livraria e Importadora</title>
     <link>http://localhost:1313/categories/produtos/</link>
-    <description>Recent content in Produtos on Comtipo</description>
+    <description>Recent content in Produtos on Comtipo - Livraria e Importadora</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>pt-br</language>
     <lastBuildDate>Fri, 13 Feb 2026 01:02:22 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/produtos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guia Comtipo</title>
-      <link>http://localhost:1313/produtos/talk-to-me-in-korean-workbook-level-1/</link>
+      <link>http://localhost:1313/livros/talk-to-me-in-korean-workbook-level-1/</link>
       <pubDate>Fri, 13 Feb 2026 01:02:22 -0300</pubDate>
-      <guid>http://localhost:1313/produtos/talk-to-me-in-korean-workbook-level-1/</guid>
+      <guid>http://localhost:1313/livros/talk-to-me-in-korean-workbook-level-1/</guid>
       <description>O manual definitivo para gestão de e-commerce.</description>
     </item>
   </channel>

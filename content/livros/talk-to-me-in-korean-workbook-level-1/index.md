@@ -1,27 +1,32 @@
 ---
-title: "Guia Comtipo"
-date: 2026-02-13T01:02:22-03:00
+title: "Talk To Me In Korean - Workbook Level 1"
+date: 2026-02-14
 draft: false
-categories: ["Produtos"]
+
+# COLE ISTO AQUI:
+cover:
+  image: "cover.jpg"
+  relative: true
+# FIM DO QUE VOCÊ COLA
+
 params:
-  isbn: "978-65-00-12345-6"
-  editora: "Comtipo Edições"
-  preco: 49.90
-  disponibilidade: "Em Estoque"
-summary: "O manual definitivo para gestão de e-commerce."
+  isbn: "979-11-86701-08-9"
+  autor: "Talk To Me In Korean"
+---
+  editora: "Longtail Books"
+  idioma: "Coreano/Inglês"
+  origem: "Importado (Coreia do Sul)"
+  preco: 120.00
+  disponibilidade: "Pronta Entrega"
+summary: "Caderno de exercícios complementar ao Textbook Level 1 para fixar o conteúdo aprendido."
 ---
 
-## Sobre este Guia
+**Pratique o que você aprendeu!**
 
-Aqui começa o texto real do produto. Este guia foi desenvolvido para auxiliar empreendedores...
+Este Workbook é o companheiro indispensável do *Textbook Level 1*. Ele oferece exercícios variados para reforçar:
+* Vocabulário.
+* Escrita (Hangeul).
+* Compreensão auditiva.
+* Gramática.
 
-### Especificações Técnicas
-* **Páginas:** 120
-* **Acabamento:** Brochura
-* **Ano:** 2026
-
-![Foto interna do livro](cover.jpg) 
-*(Você pode colocar mais fotos aqui se quiser)*
-
-### Como Comprar
-Entre em contato através do botão abaixo ou chame no WhatsApp.
+Ideal para revisar e garantir que você dominou cada lição antes de avançar para o próximo nível.

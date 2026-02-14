@@ -2,14 +2,12 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
+cover:
+  image: "cover.jpg" # O PaperMod buscará este arquivo na pasta do livro
+  alt: "Capa do livro {{ replace .Name "-" " " | title }}"
+  relative: true # Importante para Page Bundles
 params:
   isbn: ""
   autor: ""
-  editora: ""
-  idioma: "Coreano/Inglês"
-  origem: "Importado"
   preco: 0.00
-  disponibilidade: "Pronta Entrega" # ou "Sob Encomenda"
 ---
-
-Escreva aqui a sinopse do livro.
